@@ -1,0 +1,14 @@
+.explorer {
+  background-color: aqua;
+  width: 19rem;
+  height: 39.34rem;
+  margin: -2.4rem 0 0 2rem;
+  border: 1px solid grey;
+}
+
+.explorer-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+}

@@ -1,0 +1,24 @@
+.setting {
+  background-color: blueviolet;
+  width: 18rem;
+  margin: -20.5rem 0 0 2rem;
+  border-radius: 8px;
+}
+
+.setting-options {
+  border-bottom: 1px solid grey;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.setting-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.45rem 1rem;
+  font-size: 14.5px;
+}
+
+.last {
+  border-bottom: none;
+}

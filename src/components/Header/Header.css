@@ -1,5 +1,5 @@
 .header-container {
-  width: 85rem;
+  width: 85.3rem;
   height: 2rem;
   background-color: aqua;
   display: flex;
@@ -25,5 +25,14 @@
 }
 
 .file-access {
-  width: 4rem;
+  display: block;
+  width: 2rem;
+  /* margin: 0 0 0 1rem; */
+}
+
+.header-view {
+  margin: 0 0 0 2rem;
+}
+.header-help {
+  margin: 0 0 0 2rem;
 }

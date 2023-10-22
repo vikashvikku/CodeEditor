@@ -96,7 +96,7 @@ const Header = () => {
             <div className="file-access">Selection</div>
           )}
         </div>
-        <div onClick={handleClickView}>
+        <div onClick={handleClickView} className="header-view">
           {ViewAccess ? (
             <div className="file-access">
               <div>View</div>
@@ -144,7 +144,7 @@ const Header = () => {
             <div className="file-access">Terminal</div>
           )}
         </div>
-        <div onClick={handleClickHelp}>
+        <div onClick={handleClickHelp} className="header-help">
           {HelpAccess ? (
             <div className="file-access">
               <div>Help</div>

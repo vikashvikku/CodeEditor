@@ -1,0 +1,19 @@
+.Account {
+  background-color: blueviolet;
+  width: 15.5rem;
+  margin: -8.5rem 0 0 2rem;
+  border-radius: 8px;
+}
+
+.Account-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.45rem 1rem;
+  font-size: 14.5px;
+  border-bottom: 1px solid grey;
+}
+
+.last {
+  border-bottom: none;
+}

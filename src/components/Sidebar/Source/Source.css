@@ -1,0 +1,39 @@
+.source {
+  background-color: aqua;
+  /* background-color: red; */
+  width: 19rem;
+  height: 39.3rem;
+  margin: -9rem 0 0 2rem;
+  border: 1px solid grey;
+}
+
+.source-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.source-control {
+  display: flex;
+  flex-direction: row;
+  gap: 1.1rem;
+}
+
+.input-field {
+  width: 18.5rem;
+  height: 2rem;
+  border: 1px solid blue;
+  margin-bottom: 0.5rem;
+}
+
+.source-button {
+  width: 12rem;
+  height: 2rem;
+  padding: 0.2rem 0;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}

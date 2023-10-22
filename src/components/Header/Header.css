@@ -1,0 +1,29 @@
+.header-container {
+  width: 85rem;
+  height: 2rem;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  gap: 46rem;
+  padding: 0.5rem 0 0 0;
+  border-bottom: 1px solid grey;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0 0 0 1rem;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.file-access {
+  width: 4rem;
+}

@@ -1,0 +1,22 @@
+.terminal-container {
+  background-color: blueviolet;
+  width: 19rem;
+  margin: 0.7rem 0 0 0.5rem;
+  border-radius: 8px;
+}
+
+.terminal-content {
+  border-bottom: 1px solid grey;
+  padding: 0.5rem 0;
+}
+
+.terminal-terminal,
+.terminal-task,
+.terminal-running-task,
+.terminal-configure-task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 14.5px;
+}

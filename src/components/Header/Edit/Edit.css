@@ -1,0 +1,26 @@
+.edit-container {
+  background-color: blueviolet;
+  width: 20rem;
+  margin: 0.7rem 0 2rem 0.5rem;
+  border-radius: 8px;
+}
+
+.edit-content {
+  border-bottom: 1px solid grey;
+  padding: 0.5rem 0;
+}
+.edit-content-last {
+  padding: 0.5rem 0;
+}
+
+.edit-go,
+.edit-move,
+.edit-find,
+.edit-find-file,
+.edit-toggle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 14.5px;
+}

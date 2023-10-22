@@ -1,0 +1,67 @@
+.footer-container {
+  width: 85.3rem;
+  height: 1.5rem;
+  background-color: aqua;
+  border-top: 1px solid grey;
+}
+
+.footer-space {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.wsl {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.ubuntu {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.master {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.problem {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.port {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.javascript {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.prettier {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+}
+
+.compare {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,23 @@
+.selection-container {
+  background-color: blueviolet;
+  width: 22rem;
+  margin: 0.7rem 0 0 0.5rem;
+  border-radius: 8px;
+}
+
+.selection-content {
+  border-bottom: 1px solid grey;
+  padding: 0.5rem 0;
+}
+
+.selection-expansion,
+.selection-go,
+.selection-add,
+.selection-switch,
+.selection-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2rem;
+  font-size: 14.5px;
+}

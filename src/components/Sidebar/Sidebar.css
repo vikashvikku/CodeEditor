@@ -25,10 +25,6 @@
   cursor: pointer;
 }
 
-/* .editor {
-  z-index: 999;
-} */
-
 .sidebar-account {
   display: flex;
   flex-direction: column;
